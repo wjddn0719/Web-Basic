@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form>
+		<fieldset>
+			<legend>사용자 정보</legend>
+			<p>이름 <input type = "text"></p>
+			<p>이메일 <input type = "email"></p>
+			<p>나이 <input type = "number"></p>
+			<p>방문빈도 <input type = "range"></p>
+			<p>생년월일 <input type = "date"></p>
+		</fieldset>
+        <fieldset>
+			<legend>이벤트와 새로운 소식</legend>
+			<input type = "radio" name = "mail" value = yes>메일 수신
+			<input type = "radio" name = "mail" value = not>메일 수신 안함 
+		</fieldset>
+		<button type = "submit">가입하기</button>
+		<button type = "reset">취소</button>
+		<button onclick = "window.oepn('week04-1.html')">공지열기</button>
+	</form>
+	<form>
+		<fieldset>
+			<legend>파일열기</legend>
+			<input type = "file"></input>
+		</fieldset>
+	</form>
+</body>
+</html>
