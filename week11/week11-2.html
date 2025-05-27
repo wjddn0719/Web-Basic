@@ -8,6 +8,14 @@
 </head>
 <body>
    <h1 id = "txt" onclick="changecolor()">지금 우리 학교는</h1>
+   <form name = "frm">
+   <select name = "career" onchange = "alert(frm.career.value)">
+    <option value = "0" >신입</option>
+    <option value = "1">신입</option>
+    <option value = "2">신입</option>
+    <option value = "3">신입</option>
+   </select>
+</form>
 	<script>
 		let h1 = document.getElementById("txt");
 		function changecolor(){
