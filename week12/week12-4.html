@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript 연습</title>
+<style>
+    #msg {
+        border : 2px solid royalblue;
+        margin-top : 20px;
+        padding: 20px;
+        width:300px;
+        height:100px;
+        box-sizing: border-box;
+        background-color : antiquewhite;
+    }
+</style>
+</head>
+	
+<body>
+<h1>JavaScript 연습</h1>
+<form name="form1">
+	아이디 <input type = "text" name = "아이디" value = "bssm"> <br/>
+    이름 <input type = "text" name = "이름"> <br/>
+    <button onclick = "show()">확인</button>
+</form>
+
+<!--수정-->
+
+<script>
+    setTimeout(function(){alert("3초후에 실행됩니다.")}, 3000);
+    function show(){
+        let a = form1.아이디.value;
+    alert("아이디에 입력한 값은 "+a);
+    }
+</script>
+</body>
+</html>
