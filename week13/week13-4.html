@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <h2 id="yeah">0</h2>
+    <div>
+      <button onclick="plus()"> +1 </button>
+      <button onclick = "minus()"> -1 </button>
+    </div>
+
+    <script>
+			$current = document.getElementById("yeah");
+			function plus(){
+				 let value = parseInt($current.innerText);
+				$current.innerText = value + 1;
+			}
+			function minus(){
+				 let value = parseInt($current.innerText);
+				$current.innerText = value - 1;
+			}
+		</script>
+  </body>
+</html>
